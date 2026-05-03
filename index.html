@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人网站 | Apple 风格</title>
+    <meta name="description" content="简洁、克制、注重留白的个人网站。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="top-nav">
+      <div class="container nav-inner">
+        <a class="brand" href="#home"> <span data-gh="name">Your Name</span></a>
+        <nav>
+          <a href="#about">关于我</a>
+          <a href="#works">作品</a>
+          <a href="#contact">联系</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero container reveal" data-parallax="0.03">
+        <p class="eyebrow">个人网站</p>
+        <h1>像产品一样，
+          认真打磨每一次体验。</h1>
+        <p class="subtitle" data-gh="bio">你好，我是创作者，一名专注于设计与前端体验的开发者。</p>
+        <div class="actions">
+          <a class="btn primary" href="#works">查看作品</a>
+          <a class="btn ghost" data-gh="github-link" href="https://github.com" target="_blank" rel="noopener noreferrer">github.com/your-id</a>
+        </div>
+      </section>
+
+      <section id="about" class="section section-soft reveal">
+        <div class="container grid-2">
+          <div>
+            <h2>关于我</h2>
+            <p>
+              我关注视觉一致性、信息层级和动效节奏，偏爱简洁而克制的产品风格。
+              在项目里，我会从用户目标出发，把复杂问题拆解成清晰步骤。
+            </p>
+          </div>
+          <div class="profile-card reveal">
+            <img data-gh="avatar" src="https://avatars.githubusercontent.com/u/583231?v=4" alt="avatar" />
+          </div>
+          <ul class="stats">
+            <li><span data-gh="followers">0+</span> GitHub Followers</li>
+            <li><span data-gh="repos">0+</span> Public Repositories</li>
+            <li><span data-gh="location">Earth</span> Location</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="works" class="section reveal">
+        <div class="container">
+          <h2>精选作品</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Nova OS Landing</h3>
+              <p>面向消费电子品牌的高端官网设计与动效实现。</p>
+              <a href="#">查看详情 →</a>
+            </article>
+            <article class="card">
+              <h3>Finance Mobile App</h3>
+              <p>重构核心流程，将注册转化率提升了 27%。</p>
+              <a href="#">查看详情 →</a>
+            </article>
+            <article class="card">
+              <h3>Studio Portfolio</h3>
+              <p>为创意工作室打造的极简内容展示系统。</p>
+              <a href="#">查看详情 →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-soft reveal">
+        <div class="container contact">
+          <h2>一起做点很酷的事。</h2>
+          <p>欢迎通过邮箱联系我：hello@example.com</p>
+          <a class="btn primary" href="mailto:hello@example.com">发送邮件</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© 2026 Alex. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
